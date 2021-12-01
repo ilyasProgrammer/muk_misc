@@ -31,7 +31,6 @@ class PublisherWarrantyContract(models.AbstractModel):
     
     _inherit = 'publisher_warranty.contract'
 
-    @api.multi
     def update_notification(self, cron_mode=True):
         if version_info[5] == 'e':
             return super(PublisherWarrantyContract, self).update_notification(cron_mode)

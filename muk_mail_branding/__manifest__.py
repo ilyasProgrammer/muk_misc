@@ -23,7 +23,7 @@
 {
     "name": "MuK Mail Branding",
     "summary": """Branding and Debranding""",
-    "version": "12.0.2.0.2",
+    "version": "14.0.1.0.0",
     "category": "Discuss",
     "license": "LGPL-3",
     "website": "http://www.mukit.at",
@@ -39,7 +39,7 @@
     ],
     "data": [
         "data/users.xml",
-        "data/digest.xml",
+        # "data/digest.xml",  no such template
         "template/assets.xml",
         "template/layout.xml",
         "views/res_config_settings_view.xml",

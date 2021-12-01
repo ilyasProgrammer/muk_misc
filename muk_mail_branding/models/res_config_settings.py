@@ -38,7 +38,7 @@ class ResConfigSettings(models.TransientModel):
     
     branding_branding_system_image = fields.Binary(
         string='System User Image',
-        related='branding_system_user.image',
+        # related='branding_system_user.image',
         readonly=False)
     
     branding_branding_system_name = fields.Char(
